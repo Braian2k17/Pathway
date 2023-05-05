@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/firstFragment"
+        android:icon="@drawable/manual"
+        android:title="Manual"/>
+
+    <item
+        android:id="@+id/secondFragment"
+        android:icon="@drawable/ic_baseline_navigation_24"
+        android:title="Automatico"/>
+
+    <item
+        android:id="@+id/fourthFragment"
+        android:icon="@drawable/ic_outline_timeline_24"
+        android:title="Grafica"/>
+
+    <item
+        android:id="@+id/thirdFragment"
+        android:icon="@drawable/ic_baseline_help_24"
+        android:title="Ayuda"/>
+
+</menu>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="Desea guardar esta trayectoria?"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:background="@drawable/bg_verde"
+        ></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="Ingrese el nombre para esta ruta:">
+        </TextView>
+
+        <EditText
+            android:id="@+id/nombre_ruta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_borde_verde"
+            android:hint="Nombre"
+            android:padding="16dp"
+            android:textSize="12dp"></EditText>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+            <Button
+                android:id="@+id/boton_denegar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_boton_gris"
+                android:text="No, gracias"
+                android:textSize="12dp"></Button>
+
+            <Button
+                android:id="@+id/boton_aceptar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_boton_verde"
+                android:text="Si/guardar"
+                android:textColor="@color/white"
+                android:textSize="12dp"></Button>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
